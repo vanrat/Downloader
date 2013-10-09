@@ -1,4 +1,4 @@
-package com.happy.plugins;
+package com.happy.plugins.Downloader;
  
 import java.io.File;
 import java.io.FileNotFoundException;
