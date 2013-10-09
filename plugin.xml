@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-           id="com.happy.plugins"
+           id="com.happy.plugins.Downloader"
       version="1.0">
     <name>Downloader</name>
     <description>Downloader Plugin</description>
