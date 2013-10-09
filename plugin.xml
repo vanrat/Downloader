@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-           id="com.happy.plugins.Downloader"
+           id="com.happy.downloaderplugin"
       version="1.0">
     <name>Downloader</name>
     <description>Downloader Plugin</description>
@@ -15,9 +15,9 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Downloader">
-                <param name="android-package" value="com.happy.plugins.Downloader"/>
+                <param name="android-package" value="com.happy.downloaderplugin.Downloader"/>
             </feature>
         </config-file>
-        <source-file src="src/android/Downloader.java" target-dir="src/com/happy/plugins/Downloader" />     
+        <source-file src="src/android/Downloader.java" target-dir="src/com/happy/downloaderplugin" />     
      </platform>         
 </plugin>
