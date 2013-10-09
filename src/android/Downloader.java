@@ -15,7 +15,7 @@ import org.apache.cordova.PluginResult;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import com.happy.pg_jqmexampleapp.R;
+import com.happy.pg_jqmexampleapp.R;	// Set to app package
  
 import android.app.Activity;
 import android.app.NotificationManager;
