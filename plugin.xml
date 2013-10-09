@@ -18,6 +18,9 @@
                 <param name="android-package" value="com.happy.downloaderplugin.Downloader"/>
             </feature>
         </config-file>
+		<config-file target="AndroidManifest.xml" parent="/manifest">
+			<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+		</config-file> 
         <source-file src="src/android/Downloader.java" target-dir="src/com/happy/downloaderplugin" />     
      </platform>         
 </plugin>
