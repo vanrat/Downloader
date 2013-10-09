@@ -1,5 +1,6 @@
 /*
 Copy icon from res/ to res/ to resolve ic_stat error
+
 */
 package com.happy.plugins.Downloader;
  
@@ -25,7 +26,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Environment;
-import android.support.v4.app.NotificationCompat;
+import android.support.v4.app.NotificationCompat;	// import external java lib (in properties -> java lib
 import android.util.Log;
 import android.widget.Toast;
  
