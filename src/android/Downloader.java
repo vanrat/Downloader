@@ -1,3 +1,6 @@
+/*
+Copy icon from res/ to res/ to resolve ic_stat error
+*/
 package com.happy.plugins.Downloader;
  
 import java.io.File;
